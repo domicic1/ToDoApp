@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-image: url('/public/pic1.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* This keeps the background fixed as the user scrolls */
+  background-position: center;
 }
 
 code {
